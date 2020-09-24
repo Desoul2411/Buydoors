@@ -9232,6 +9232,16 @@ section:last-of-type {
     top: 20px;
   }
 
+  .order-details-block-form__email-valid-image {
+    bottom: -12px;
+    right: -11px;
+  }
+
+  .order-details-block-form__email-invalid-image {
+    bottom: -12px;
+    right: -11px;
+  }
+
   .order-details-block-form__input {
     height: 35px;
   }
