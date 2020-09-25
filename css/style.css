@@ -5244,7 +5244,7 @@ section:last-of-type {
 
 .text-page-main .info-section__image {
   min-height: 380px;
-  background: url(./../img/_text-page/gallery-image.jpg) 50% 50% no-repeat;
+  background: url(./../img/text-page/gallery-image.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -6147,7 +6147,7 @@ section:last-of-type {
 
 .order-block .in-cart__del-button::after {
   position: absolute;
-  content: url("../img/_cart-page/cross.png");
+  content: url("../img/cart-page/cross.png");
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -6858,7 +6858,7 @@ section:last-of-type {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  content: url("../img/_catalogue-page/filter-button.svg");
+  content: url("../img/catalogue-page/filter-button.svg");
   width: 25px;
   height: 15px;
 }
@@ -9378,7 +9378,7 @@ section:last-of-type {
 
 .webp .new-goods-section__banner-mobile{ background: url(./../img/main-page/banner-mobile.webp) 50% 50% no-repeat; }
 
-.webp .text-page-main .info-section__image{ background: url(./../img/_text-page/gallery-image.webp) 50% 50% no-repeat; }
+.webp .text-page-main .info-section__image{ background: url(./../img/text-page/gallery-image.webp) 50% 50% no-repeat; }
 
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (-o-min-device-pixel-ratio: 35/32), (min-resolution: 105dpi), (-o-min-device-pixel-ratio: 11/10), (min-resolution: 1.1dppx){
 
