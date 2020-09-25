@@ -21,10 +21,10 @@ $('.menu-section__background-mobile').click(function() {
 });
 
 
-//show popup 
+//show popup
 function showPopup(popupName) {
     $('body').css('overflow','hidden');
-    $(popupName).addClass('opened');
+    $(popupName).fadeIn(300)
     $('body').css('padding-right','17px');
 };
 
@@ -32,7 +32,7 @@ function showPopup(popupName) {
 function closePopup() {
     $('body').css('overflow','auto');
     $('body').css('padding-right','0px');
-    $('.popup').removeClass('opened');
+    $('.popup').fadeOut(0)
 };
 
 // on click "Заказать звонок" button

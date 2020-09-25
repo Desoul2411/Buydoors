@@ -157,9 +157,9 @@ $('.menu-section__background-mobile').click(function() {
 
 
 //show popup
- function showPopup(popupName) {
+function showPopup(popupName) {
     $('body').css('overflow','hidden');
-    $(popupName).addClass('opened');
+    $(popupName).fadeIn(300)
     $('body').css('padding-right','17px');
 };
 
@@ -167,7 +167,7 @@ $('.menu-section__background-mobile').click(function() {
 function closePopup() {
     $('body').css('overflow','auto');
     $('body').css('padding-right','0px');
-    $('.popup').removeClass('opened');
+    $('.popup').fadeOut(0)
 };
 
 $('.popup__close-button').click(closePopup);
