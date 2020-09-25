@@ -9372,7 +9372,7 @@ section:last-of-type {
 
 .webp .menu-section .slider-block__item{ background: url(./../img/_main-page/slider-image-signed.webp) left center no-repeat; }
 
-.webp .news-section .news-slider-block__image{ background: url(./../img/_main-page/news-image-1.webp) 50% 50% no-repeat; }
+.webp .news-section .news-slider-block__image{ background: url(/../img/_main-page/news-image-1.webp) 50% 50% no-repeat; }
 
 .webp .new-goods-section__banner{ background: url(./../img/_main-page/banner.webp) 50% 50% no-repeat; }
 
